@@ -2,7 +2,7 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import profilePic from '../../public/images/profile/maradona.png'
+import profilePic from '../../public/images/profile/tangerine.png'
 //import profilePic from '../../public/images/profile/developer-pic-1.png'
 import AnimatedText from '@/components/AnimatedText'
 import { LinkArrow } from '@/components/Icons'
@@ -29,14 +29,14 @@ export default function Home() {
                 Artificial Intelligence Researcher.
               </p>
               <div className='flex items-center self-start mt-2'>
-                <Link href='/Giovanni_scialla_CV.pdf' target={'_blank'}
+                <Link href='/CV.pdf' target={'_blank'}
                 className='flex items-center bg-dark text-light p-2.5 px-6
                 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
                 border-2 border-solid border-transparent hover:border-dark 
                 dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light'
                 >Resume <LinkArrow className={'w-6 ml-1'}/>
                 </Link>
-                <Link href='mailto:giovanni.scialla@studenti.unitn.it' target={'_blank'}
+                <Link href='mailto:giovanni.scialla1808@outlook.it' target={'_blank'}
                 className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light'
                 >Contact</Link>
               </div>
