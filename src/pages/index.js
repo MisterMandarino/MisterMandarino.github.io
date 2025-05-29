@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import profilePic from '../../public/images/profile/tangerine.png'
-//import profilePic from '../../public/images/profile/developer-pic-1.png'
 import AnimatedText from '@/components/AnimatedText'
 import { LinkArrow } from '@/components/Icons'
 
@@ -23,10 +22,10 @@ export default function Home() {
               priority
               sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw'></Image>
             </div>
-            <div className='w-1/2 flex flex-col items-center self-center'>
+            <div className='w-1/2 flex flex-col items-center'>
               <AnimatedText text='Hello, I am Giovanni.' className='!text-6xl !text-left'/>
               <p className='my-4 text-base font-medium'>
-                Artificial Intelligence Researcher.
+              Artificial Intelligence Researcher.
               </p>
               <div className='flex items-center self-start mt-2'>
                 <Link href='/CV.pdf' target={'_blank'}

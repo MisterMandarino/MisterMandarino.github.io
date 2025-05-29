@@ -11,12 +11,11 @@ const Logo = () => {
             className='w-16 h-16 bg-dark text-light flex items-center justify-center rounded-full text-2xl font-bold 
             border border-solid border-transparent dark:border-light'
             whileHover={{
-                backgroundColor:['#121212', 'rgba(0,255,0,1)', 'rgba(0,0,0,0)', 'rgba(255,0,0,1)', '#121212'],
+                backgroundColor:['rgba(255,172,55,1)', 'rgba(255,213,153,1)', 'rgba(255,196,113,1)', 'rgba(255,185,63,1)', 'rgba(255,172,55,1)'],
                 transition:{duration:1, repeat:Infinity}
 
             }}
-            >
-            GS</MotionLink>
+            >GS</MotionLink>
         </div>
     )
 }
